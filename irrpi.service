@@ -1,0 +1,11 @@
+[Unit]
+Description=irrpi - Internet Remote Raspberry Pi
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/programming/gpiostuff/irrpi
+ExecStart=/home/pi/programming/gpiostuff/irrpi/check.sh
+
+[Install]
+WantedBy=multi-user.target
+
