@@ -4,7 +4,7 @@ from time import sleep
 led = LED(26)
 t = 0.5
 for i in range(10):
-    print("yolo0")
+    print("Yolo0")
     led.on()
     sleep(t)
     led.off()
