@@ -3,8 +3,11 @@ Description=irrpi - Internet Remote Raspberry Pi
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/programming/gpiostuff/irrpi
-ExecStart=/home/pi/programming/gpiostuff/irrpi/check.sh
+
+#put your working directory here
+WorkingDirectory=/home/pi/programming/irrpi
+#and the script you want to run when system starts up here
+ExecStart=/home/pi/programming/irrpi/check.sh
 
 [Install]
 WantedBy=multi-user.target
