@@ -1,5 +1,6 @@
 [Unit]
 Description=irrpi - Internet Remote Raspberry Pi
+After=network.target
 
 [Service]
 Type=simple
