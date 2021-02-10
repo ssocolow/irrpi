@@ -1,9 +1,9 @@
 # irrpi
 Internet Remote Raspberry Pi  
 
-Purpose is to have an internet connected raspberry pi run programs and be controlled through the internet without using port forwarding by having the pi check a website that you can control with instructions.  
+Purpose is to have an internet connected raspberry pi run programs and be controlled through the internet without using port forwarding by having the pi check a website that you can control with instructions.  The pi runs those instructions once the website changes.
 
-The irrpi.service file should be copied by the user to /etc/systemd/system which is accomplished in quick setup
+The irrpi.service should get associated with /etc/systemd/system which should be accomplished in quick setup
 
 ## Quick Setup
 git clone the project  
