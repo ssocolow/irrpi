@@ -12,8 +12,7 @@ git clone the project
 go into the directory of the project  
 `cd irrpi`
 
-now you can either run the bash script directly `./check.sh`  
-(which goes into a while true loop constantly checking the website for changes then if there is a change it runs the run.py script) or you can enable the service for it to be run on startup:
+now you can either run the bash script directly (`./check.sh`) (which goes into a while true loop constantly checking the website for changes then if there is a change it runs the run.py script) or you can enable the service for it to be run on startup:
 
 edit the irrpi.service file to contain your working directory and file you want to be run on startup (change the path to whatever path you have for the irrpi.service file and the directory it is in) (read comments in irrpi.service)
 
